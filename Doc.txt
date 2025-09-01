@@ -1,0 +1,59 @@
+
+
+
+
+Récupération des données:
+
+1-Librairi 'yfinance'
+
+-> Accès aux données facile
+-> Pratique pour prototyper
+
+-> Données parfois incohérentes ou incorrectes
+-> Fragilité due au scraping
+-> Limitations de taux de blocage
+-> Pas d'assistance officielle
+
+
+
+2-Alternatives recommandées
+
+-> Alpha Vantage: API officielle, gratuit jusqu'à 5 requêtes/min, données boursières, forex, crypto, etc.
+
+-> Finnhub: historique, actu, fondamentaux, taux, avec clé API, limite raisonnable gratuite, fiabilité supérieure
+
+-> Polygon.io, IEX Cloud, Tiingo, Marletstack, EOD Historical DATA: API strucutées, service continu et support commercial
+
+
+https://site.financialmodelingprep.com/login
+https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset?resource=download
+
+
+
+
+Documentation dataset:
+
+📘 Documentation : World_Stock_Exchanges_Detailed_With_GMT.xlsx
+Colonne	Description
+Exchange	Nom de la bourse (ex. New York Stock Exchange, Euronext, etc.)
+Code	Code ou abréviation associée à la bourse (ex. NYSE, TSE, LSE)
+City/Country	Ville et pays où est située la bourse
+Continent	Continent correspondant (Europe, Asia, North America...)
+Time zone	Fuseau horaire local de la bourse, tel qu’utilisé dans le pays concerné
+Local Hours	Horaires d’ouverture (locaux) de la session de marché
+GMT Offset	Décalage horaire par rapport au temps universel (ex. GMT+1 / GMT+2)
+
+📘 Documentation : World_Crypto_Exchanges_Detailed.csv
+Column	Description
+Exchange	Nom de la plateforme d’échange de cryptomonnaies (ex. Binance, Coinbase, etc.)
+Market Share (%)	Part de marché estimée en pourcentage
+Annual Volume (USD T)	Volume d’échange annuel estimé en trillions de dollars
+H1 2025 Volume (USD T)	Volume échangé au premier semestre 2025 (si connu)
+Supported Coins / Tokens	Nombre de cryptos et/ou paires disponibles à l’échange
+Users / Accounts	Nombre d’utilisateurs ou de comptes enregistrés
+Assets under Custody (USD Bn)	Montant des actifs conservés, en milliards de dollars US
+Region	Région ou zone géographique principale d'activité
+Trading Types	Types de produits ou services proposés (spot, dérivés, staking, etc.)
+Website	Lien officiel vers la plateforme
+
+
